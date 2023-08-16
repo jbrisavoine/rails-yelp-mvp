@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+ .card {
+  background-color: gray;
+  padding: 20px;
+  margin: 5px;
+}
+
+.link {
+  color: rgba(200,200,200,0.9);
+  font-weight: bold;
+  text-decoration: none;
+
+} .link:hover {
+  color: rgba(200,200,200,0.9);
+  text-decoration: none;
+  font-size: 36px;
+}
+
+a {
+  text-decoration: none!important;
+}
